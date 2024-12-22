@@ -7,6 +7,6 @@ class ProductMailer < ApplicationMailer
   def in_stock
     @product = params[:product]
     @subscriber = params[:subscriber]
-    mail(to: @subscriber.email, subject: 'Product Back in Stock')
+    mail(to: @subscriber.email, subject: "Product Back in Stock")
   end
 end
