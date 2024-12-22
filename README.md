@@ -72,21 +72,21 @@ This method sends an email to each subscriber notifying them that the product is
 
 2. Install dependencies:
 
-    ```sh
-        bundle install
-    ```
+   ```sh
+   bundle install
+   ```
 
 3. Set up the database:
 
-    ```sh
-        rails db:create
-        rails db:migrate
-    ```
+   ```sh
+   rails db:create
+   rails db:migrate
+   ```
 
 4. Start the Rails server:
 
-    ```sh
-        rails server
-    ```
+   ```sh
+   rails server
+   ```
 
 5. Visit http://localhost:3000 in your browser to see the application.
