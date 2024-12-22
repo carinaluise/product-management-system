@@ -21,5 +21,9 @@ Rails.application.routes.draw do
   resources :passwords, param: :token
   resources :products
   root "products#index"
+  resources :products do
+    resources :subscribers, only: [ :create ]
+  end
+  
 end
 
