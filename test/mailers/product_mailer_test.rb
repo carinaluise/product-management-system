@@ -4,8 +4,8 @@ class ProductMailerTest < ActionMailer::TestCase
   include Rails.application.routes.url_helpers
 
   setup do
-    @product = products(:one)
-    @subscriber = subscribers(:one)
+    @product = products(:tshirt)
+    @subscriber = subscribers(:david)
     @host = "example.com"
     Rails.application.routes.default_url_options[:host] = @host
   end
