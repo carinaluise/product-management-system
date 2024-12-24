@@ -7,8 +7,12 @@
 <section id="products">
   <% @products.each do |product| %>
     <%= link_to product, class: 'product-card' do %>
-      <%= product.name %>
-      <%= product.description %>
+      <article>
+        <header>
+          <h2><%= product.name %></h2>
+        </header>
+        <p><%= product.description %></p>
+      </article>
     <% end %>
   <% end %>
 </section>
