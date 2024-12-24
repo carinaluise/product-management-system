@@ -71,6 +71,10 @@ main {
   color: var(--color-notice);
 }
 
+section {
+  margin: 2rem 0;
+}
+
 section.product {
   display: flex;
   gap: 1rem;
@@ -95,4 +99,11 @@ a.product-card {
   padding: 1rem;
   flex-basis: 20%;
   color: var(--color-product-card-text);
+}
+
+a.product-new {
+  background-color: var(--color-product-card-bg);
+  border-radius: 8px;
+  padding: 0.5rem 4rem;
+  text-align: center;
 }
