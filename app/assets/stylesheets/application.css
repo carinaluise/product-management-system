@@ -18,7 +18,8 @@
   --color-link: #928dab;
   --color-notice: green;
   --color-product-card-bg: #1f1c2c;
-  --color-product-card-text: #928dab;
+  --color-product-card-header: #928dab;
+  --color-product-card-text: hsla(250, 15%, 61%, 0.7);
 }
 
 body {
@@ -104,7 +105,7 @@ a.product-card {
   border-radius: 8px;
   padding: 1rem;
   flex-basis: 20%;
-  color: var(--color-product-card-text);
+  color: var(--color-product-card-header);
 }
 
 a.product-new {
@@ -112,4 +113,21 @@ a.product-new {
   border-radius: 8px;
   padding: 0.5rem 4rem;
   text-align: center;
+}
+
+.product-card header p {
+  margin-top: 0;
+}
+
+.product-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 0.875em;
+}
+
+section.product-card--body {
+  font-size: 0.875em;
+  color: var(--color-product-card-text);
 }
