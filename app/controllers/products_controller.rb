@@ -18,6 +18,7 @@ class ProductsController < ApplicationController
     if @product.save
       redirect_to @product
     else
+      puts @product.errors.full_messages
       render :new, status: :unprocessable_entity
     end
   end
@@ -29,6 +30,7 @@ class ProductsController < ApplicationController
     if @product.update(product_params)
       redirect_to @product
     else
+      puts @product.errors.full_messages
       render :edit, status: :unprocessable_entity
     end
   end
