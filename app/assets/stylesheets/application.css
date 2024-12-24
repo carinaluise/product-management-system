@@ -53,9 +53,15 @@ nav {
   color: var(--color-text);
 }
 
-a {
+a,
+button {
   color: var(--color-link);
   text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 nav a {
