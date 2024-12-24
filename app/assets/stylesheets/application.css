@@ -70,3 +70,16 @@ section.product img {
   flex-basis: 50%;
   max-width: 50%;
 }
+
+div#products {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+div.product-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 1rem;
+  flex-basis: 50%;
+}
