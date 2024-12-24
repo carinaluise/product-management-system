@@ -2,10 +2,10 @@
 
 <%= link_to "New product", new_product_path if authenticated? %>
 
-<div id="products">
+<section id="products">
   <% @products.each do |product| %>
-    <div class="product-card">
-      <%= link_to product.name, product %>
-    </div>
+    <%= link_to product, class: 'product-card' do %>
+      <%= product.name %>
+    <% end %>
   <% end %>
-</div>
+</section>
