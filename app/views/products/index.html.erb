@@ -19,6 +19,10 @@
           <% else %>
             <p>Out of stock</p>
           <% end %>
+          <p>
+            <strong>Price:</strong>
+            <%= number_to_currency(product.price) %>
+          </p>
         </header>
         <section class="product-card--body">
           <%= product.description %>
