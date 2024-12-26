@@ -86,10 +86,16 @@ This method sends an email to each subscriber notifying them that the product is
    rails db:migrate
    ```
 
-4. Start the Rails server:
+4. Seed the Database
+
+   ```sh
+   rails db:seed
+   ```
+
+5. Start the Rails server:
 
    ```sh
    rails server
    ```
 
-5. Visit http://localhost:3000 in your browser to see the application.
+6. Visit http://localhost:3000 in your browser to see the application.
