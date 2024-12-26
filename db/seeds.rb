@@ -44,7 +44,7 @@ products = [
   { name: 'Epsilon 2', description: 'Unique description for gadget Epsilon 2', inventory_count: 150, price: 299.99 },
   { name: 'Zeta 2', description: 'Unique description for gadget Zeta 2', inventory_count: 155, price: 309.99 },
   { name: 'Eta 2', description: 'Unique description for gadget Eta 2', inventory_count: 160, price: 319.99 },
-  { name: 'Theta 2', description: 'Unique description for gadget Eta 2', inventory_count: 160, price: 319.99 },
+  { name: 'Theta 2', description: 'Unique description for gadget Eta 2', inventory_count: 160, price: 319.99 }
 ]
 
 Product.create(products)
