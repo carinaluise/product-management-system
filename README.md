@@ -1,7 +1,5 @@
 # Product Management System
 
-<img src="./public/preview.png">
-
 <br/>
 This is a Ruby on Rails application for managing products and their subscribers. The application allows users to create, update, and delete products, as well as manage subscribers who are interested in these products. When a product comes back in stock, subscribers are notified via email.
 
