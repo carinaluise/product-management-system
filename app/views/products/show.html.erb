@@ -7,6 +7,10 @@
     <% cache @product do %>
       <h1><%= @product.name %></h1>
       <%= @product.description %>
+      <p>
+        <strong>Price:</strong>
+        <%= number_to_currency(@product.price) %>
+      </p>
     <% end %>
 
     <%= render "inventory", product: @product %>
