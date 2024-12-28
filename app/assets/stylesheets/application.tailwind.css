@@ -7,12 +7,12 @@ body {
 }
 
 nav {
-  @apply justify-end flex text-sm gap-2 max-w-screen-lg mx-auto p-4 text-text;
+  @apply justify-end flex text-sm gap-2 max-w-screen-lg mx-auto p-4 text-purple-200;
 }
 
 a,
 button {
-  @apply text-link no-underline;
+  @apply text-purple-200 no-underline;
 }
 
 button {
