@@ -93,7 +93,7 @@ This method sends an email to each subscriber notifying them that the product is
 5. Start the Rails server:
 
    ```sh
-   rails server
+   ./bin/dev
    ```
 
 6. Visit http://localhost:3000 in your browser to see the application.
